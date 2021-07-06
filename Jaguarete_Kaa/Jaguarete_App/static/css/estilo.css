@@ -1,0 +1,23 @@
+body {
+    background-image: url("../imagenes/");
+}
+
+h1, h3 {
+    text-align: center;
+    color: rgb(15, 119, 179);
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.title {
+    text-align: center;
+    color: rgb(15, 119, 179);
+    font-family:'Courier New', Courier, monospace;
+} 
+
+.contenedorFormulario {
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 1px 0px;
+}

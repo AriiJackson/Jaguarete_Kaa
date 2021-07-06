@@ -1,0 +1,39 @@
+{% extends 'Jaguarete_App/layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+    <h1>Bienvenidos a Jaguarete Kaa</h1>
+    <section class="article-list">
+        <div class="container">
+            <div class="intro">
+                <h2 class="title">¿Que ofrecemos?</h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item">
+                    <a href="#"><img class="img-fluid" src="{% static 'imagenes/notebook.jpg' %}" /></a>
+                    <h3 class="name">Solucion</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                    <a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item">
+                    <a href="#"><img class="img-fluid" src="{% static 'imagenes/oficina.webp' %}" /></a>
+                    <h3 class="name">Atencion</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                    <a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item">
+                    <a href="#"><img class="img-fluid" src="{% static 'imagenes/envios.png' %}" /></a>
+                    <h3 class="name">Envios</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                    <a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
